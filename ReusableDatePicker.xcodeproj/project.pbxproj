@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B1598C5216524610092D595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1598C4216524610092D595 /* AppDelegate.swift */; };
+		6B1598C7216524610092D595 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1598C6216524610092D595 /* FirstViewController.swift */; };
+		6B1598C9216524610092D595 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1598C8216524610092D595 /* SecondViewController.swift */; };
+		6B1598CC216524610092D595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1598CA216524610092D595 /* Main.storyboard */; };
+		6B1598CE216524620092D595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1598CD216524620092D595 /* Assets.xcassets */; };
+		6B1598D1216524620092D595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1598CF216524620092D595 /* LaunchScreen.storyboard */; };
+		6B1598D92165280E0092D595 /* DatePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1598D82165280E0092D595 /* DatePopupViewController.swift */; };
+		6B1598DC2165432A0092D595 /* DatePopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1598DA2165432A0092D595 /* DatePopupViewController.storyboard */; };
+		6B1598DE2165437F0092D595 /* SelectTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1598DD2165437F0092D595 /* SelectTimeViewController.storyboard */; };
+		6B1598E0216543B90092D595 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1598DF216543B90092D595 /* SelectTimeViewController.swift */; };
+		6BE61F742166582C0054DFB0 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE61F732166582C0054DFB0 /* NotificationNameExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B1598C1216524610092D595 /* ReusableDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1598C4216524610092D595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B1598C6216524610092D595 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6B1598C8216524610092D595 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6B1598CB216524610092D595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B1598CD216524620092D595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B1598D0216524620092D595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B1598D2216524620092D595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1598D82165280E0092D595 /* DatePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopupViewController.swift; sourceTree = "<group>"; };
+		6B1598DB2165432A0092D595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ReusableDatePicker/Base.lproj/DatePopupViewController.storyboard; sourceTree = "<group>"; };
+		6B1598DD2165437F0092D595 /* SelectTimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeViewController.storyboard; sourceTree = "<group>"; };
+		6B1598DF216543B90092D595 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		6BE61F732166582C0054DFB0 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B1598BE216524610092D595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1598B8216524610092D595 = {
+			isa = PBXGroup;
+			children = (
+				6B1598C3216524610092D595 /* ReusableDatePicker */,
+				6B1598C2216524610092D595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B1598C2216524610092D595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1598C1216524610092D595 /* ReusableDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B1598C3216524610092D595 /* ReusableDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6B1598DA2165432A0092D595 /* DatePopupViewController.storyboard */,
+				6B1598C4216524610092D595 /* AppDelegate.swift */,
+				6B1598C6216524610092D595 /* FirstViewController.swift */,
+				6B1598C8216524610092D595 /* SecondViewController.swift */,
+				6B1598CA216524610092D595 /* Main.storyboard */,
+				6B1598CD216524620092D595 /* Assets.xcassets */,
+				6B1598CF216524620092D595 /* LaunchScreen.storyboard */,
+				6B1598D2216524620092D595 /* Info.plist */,
+				6B1598D82165280E0092D595 /* DatePopupViewController.swift */,
+				6B1598DD2165437F0092D595 /* SelectTimeViewController.storyboard */,
+				6B1598DF216543B90092D595 /* SelectTimeViewController.swift */,
+				6BE61F732166582C0054DFB0 /* NotificationNameExtension.swift */,
+			);
+			path = ReusableDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1598C0216524610092D595 /* ReusableDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1598D5216524620092D595 /* Build configuration list for PBXNativeTarget "ReusableDatePicker" */;
+			buildPhases = (
+				6B1598BD216524610092D595 /* Sources */,
+				6B1598BE216524610092D595 /* Frameworks */,
+				6B1598BF216524610092D595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReusableDatePicker;
+			productName = ReusableDatePicker;
+			productReference = 6B1598C1216524610092D595 /* ReusableDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B1598B9216524610092D595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Santiago Cuervo - Ceiba Software";
+				TargetAttributes = {
+					6B1598C0216524610092D595 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6B1598BC216524610092D595 /* Build configuration list for PBXProject "ReusableDatePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B1598B8216524610092D595;
+			productRefGroup = 6B1598C2216524610092D595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1598C0216524610092D595 /* ReusableDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1598BF216524610092D595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1598D1216524620092D595 /* LaunchScreen.storyboard in Resources */,
+				6B1598DE2165437F0092D595 /* SelectTimeViewController.storyboard in Resources */,
+				6B1598CE216524620092D595 /* Assets.xcassets in Resources */,
+				6B1598DC2165432A0092D595 /* DatePopupViewController.storyboard in Resources */,
+				6B1598CC216524610092D595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B1598BD216524610092D595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1598C9216524610092D595 /* SecondViewController.swift in Sources */,
+				6B1598E0216543B90092D595 /* SelectTimeViewController.swift in Sources */,
+				6B1598D92165280E0092D595 /* DatePopupViewController.swift in Sources */,
+				6BE61F742166582C0054DFB0 /* NotificationNameExtension.swift in Sources */,
+				6B1598C5216524610092D595 /* AppDelegate.swift in Sources */,
+				6B1598C7216524610092D595 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B1598CA216524610092D595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1598CB216524610092D595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B1598CF216524620092D595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1598D0216524620092D595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6B1598DA2165432A0092D595 /* DatePopupViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1598DB2165432A0092D595 /* Base */,
+			);
+			name = DatePopupViewController.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B1598D3216524620092D595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B1598D4216524620092D595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B1598D6216524620092D595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReusableDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.sancramirez.ReusableDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B1598D7216524620092D595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReusableDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.sancramirez.ReusableDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B1598BC216524610092D595 /* Build configuration list for PBXProject "ReusableDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1598D3216524620092D595 /* Debug */,
+				6B1598D4216524620092D595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1598D5216524620092D595 /* Build configuration list for PBXNativeTarget "ReusableDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1598D6216524620092D595 /* Debug */,
+				6B1598D7216524620092D595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B1598B9216524610092D595 /* Project object */;
+}
